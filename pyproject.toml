@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = "Standard python template to clone in future"
+authors = [" Sanket Satish Mehta <mehtasankets@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pkgname"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
